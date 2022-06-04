@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from './Componentes/Header'; 
-import Footer from './Componentes/Footer';
-import { BrowserRouter } from 'react-router-dom';
+import Header from './Components/Header'; 
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          
+          <Route path="/" element={<Home />} /> 
+          <Route path="/login" element={<Home />} /> 
         </Routes>
         <Footer />      
       </BrowserRouter>
