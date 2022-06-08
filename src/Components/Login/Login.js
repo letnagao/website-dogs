@@ -8,10 +8,9 @@ import { UserContext } from '../../UserContext';
 import styles from './Login.module.css';
 
 const Login = () => {
-  const {login} = React.useContext(UserContext);
+  const { login } = React.useContext(UserContext);
 
-  if(login === true) return <Navigate to="/conta"/>
-
+  if (login === true) return <Navigate to="/conta" />;
   return (
     <section className={styles.login}>
       <div className={styles.forms}>
@@ -21,7 +20,7 @@ const Login = () => {
           <Route path="perdeu" element={<LoginPasswordLost />} />
           <Route path="resetar" element={<LoginPasswordReset />} />
         </Routes>
-      </div>  
+      </div>
     </section>
   );
 };
