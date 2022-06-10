@@ -3,25 +3,22 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin-bottom: 2rem;
-}
-
-.photoPost #img {
+  }
+  
+  .file {
     margin-bottom: 1rem;
-}
-
-.file {
-    margin-bottom: 1rem;
-}
-
-.preview {
+  }
+  
+  .preview {
     border-radius: 1rem;
     background-size: cover;
     background-position: center center;
-}
-
-.preview::after {
+  }
+  
+  .preview::after {
     content: '';
     display: block;
     height: 0px;
     padding-bottom: 100%;
-}
+  }
+  
