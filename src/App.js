@@ -34,7 +34,7 @@ function App() {
               <Route path="perfil/:user" element={<UserProfile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </main>    
+          </main>
           <Footer />
         </UserStorage>
       </BrowserRouter>
