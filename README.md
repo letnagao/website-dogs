@@ -14,6 +14,10 @@ Website Dogs made using React & JavaScript.
   <img src="https://user-images.githubusercontent.com/99754900/178132230-1813c41d-8632-44ae-839e-779090907365.jpg" />
 </p>  
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/99754900/178132247-333a0cb1-9b1c-4d91-abaf-6c0939593e97.jpg" />
+</p>  
+
 ## Website 💻
 https://website-dogs.pages.dev/
 
