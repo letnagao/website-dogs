@@ -37,7 +37,6 @@ https://website-dogs.pages.dev/
     - **axios**: implement api requests with ease <br />
     - **reselect**: reusing redux selectors in a performant way <br />
     - **redux-persist**: storing data in local storage <br />
-    - **compression**: for gzipping our files on heroku <br />
     - **concurrently**: for running multiple scripts concurrently <br />
 
 ## Usage 📋
