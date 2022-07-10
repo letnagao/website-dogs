@@ -59,7 +59,6 @@ https://website-dogs.pages.dev/
 ~ npm run build
 ~ npm run dev
 ~ npm start
-~ npm run heroku-postbuild
 ```
 </details>
 
