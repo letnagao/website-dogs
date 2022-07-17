@@ -48,7 +48,7 @@ https://website-dogs.pages.dev/
 ~ git clone https://github.com/letnagao/website-dogs.git
 #2. cd into it
 ~ cd website-dogs
-#3. install serevr dependencies
+#3. install server dependencies
 ~ npm i
 #3. install client dependencies
 ~ cd client && npm i
